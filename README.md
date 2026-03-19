@@ -1,6 +1,6 @@
 ## fan open source developer & technical support
 
-passionate about computers and home labs, i am self-taught and empirical, i enjoyed spending my free time creating what i never imagined i could create, 
+passionate about computers and home labs, i enjoyed spending my free time creating what i never imagined i could create, 
 
 systems/networks: linux sysadmin, servers(db) and network configuration,
 
