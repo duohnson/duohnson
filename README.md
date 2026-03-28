@@ -1,4 +1,4 @@
-## open-source dev and technical support specialist
+## backend developer and technical support specialist
 
 passionate about computers and home labs, i enjoyed spending my free time creating what i never imagined i could create, 
 
