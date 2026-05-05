@@ -1,5 +1,3 @@
----
-
 # ESPAÑOL
 
 ### Desarrollador Backend & Especialista en Soporte Técnico
@@ -18,8 +16,6 @@
 
 Explora mis desarrollos en [duohnson.com](https://duohnson.com/)
 
----
-
 # ENGLISH
 
 ### Backend Developer & Technical Support Specialist
@@ -37,5 +33,3 @@ Explora mis desarrollos en [duohnson.com](https://duohnson.com/)
 #### Web Projects
 
 Check out my developments at [duohnson.com](https://duohnson.com/)
-
----
