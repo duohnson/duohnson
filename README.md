@@ -1,27 +1,41 @@
--------------------------------------------------------------------------------------------------------------------------------------------
-# ESPAÑOL:
+---
 
-## desarrollador backend y especialista en soporte técnico
+# ESPAÑOL
 
-apasionado por las computadoras y los laboratorios caseros, disfrutaba pasar mi tiempo libre creando lo que nunca imaginé que podría crear,
+### Desarrollador Backend & Especialista en Soporte Técnico
 
-administrador de sistemas y redes: linux, gestión de servidores de bases de datos y configuración de redes
+> Apasionado por las computadoras y los laboratorios caseros, disfruto pasar mi tiempo libre creando lo que nunca imaginé que podría crear.
 
-"no solo destaco por mi inventario de conocimientos, sino por mi voraz capacidad de aprender" - me encanta esto
+#### Especialidades
 
-si estás buscando desarrollos web, href: [https://duohnson.com/](https://duohnson.com/)
+- **Administración de Sistemas & Redes:** Linux, gestión de servidores de bases de datos y configuración de redes
 
--------------------------------------------------------------------------------------------------------------------------------------------
-# ENGLISH:
+#### Filosofía
 
-## backend developer and technical support specialist
+> _"No solo destaco por mi inventario de conocimientos, sino por mi voraz capacidad de aprender."_ — y me encanta esto
 
-passionate about computers and home labs, i enjoyed spending my free time creating what i never imagined i could create, 
+#### Proyectos Web
 
-systems & network admin: linux, database server management, and network configuration
+Explora mis desarrollos en [duohnson.com](https://duohnson.com/)
 
-"not only do i stand out for my inventory of knowledge, but also for my voracious ability to learn." - i love this
+---
 
-if you’re looking for web developments, href: https://duohnson.com/
+# ENGLISH
 
--------------------------------------------------------------------------------------------------------------------------------------------
+### Backend Developer & Technical Support Specialist
+
+> Passionate about computers and home labs, I enjoy spending my free time creating what I never imagined I could create.
+
+#### Expertise
+
+- **Systems & Network Admin:** Linux, database server management, and network configuration
+
+#### Philosophy
+
+> _"Not only do I stand out for my inventory of knowledge, but also for my voracious ability to learn."_ — I love this
+
+#### Web Projects
+
+Check out my developments at [duohnson.com](https://duohnson.com/)
+
+---
