@@ -1,5 +1,7 @@
 ## -
 
-### | future sysadmin under construction, dedicated to the tech world and driven by a lifelong passion that started at age 11 |
+### | Informático Autodidacta y Empírico... |
+
+### | Self-taught and empirical computer scientist... |
 
 ## -
