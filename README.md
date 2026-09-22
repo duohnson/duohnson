@@ -1,7 +1,5 @@
 ## -
 
-### | Informático Autodidacta y Empírico... |
-
-### | Self-taught and empirical computer scientist... |
+### | quien soy yo? lee aquí.. https://duohnson.com/conoce-quien-soy.html |
 
 ## -
