@@ -50,7 +50,7 @@ def github_stats():
                 break
             time.sleep(4)
         else:
-            print(f"stats: {r['full_name']} no respondio")
+            print(f"stats: {r['full_name']} 404 error")
             skipped += 1
             continue
         for c in stats:
@@ -66,8 +66,8 @@ def github_stats():
         "loc_net": f"{adds - dels:,}",
         "loc_add": f"{adds:,}",
         "loc_del": f"{dels:,}",
-        "stats_status": (f"Parcial: {skipped} repositorio(s) pendiente(s)"
-                         if skipped else "Completo"),
+        "stats_status": (f"Partial: {skipped} repository(ies) pending"
+                 if skipped else "Complete"),
     }, skipped
 
 
