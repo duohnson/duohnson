@@ -6,28 +6,28 @@ Corre:  python3 make_profile.py
 """
 
 # ============================ EDITA AQUÍ ============================
-NAME   = "TVTvirus"          # sale como  TVTvirus@github
+NAME   = "duohnson"          # originalmente se hizo fork a: TVTvirus@github, sus respectivos creditos..
 HANDLE = "github"
 
 # Cada fila: ("field", clave, valor)  |  ("blank",)
 # Quita/añade filas a gusto. NO hay campo de edad a propósito.
 # Los {placeholders} se rellenan desde data.json (lo actualiza update_data.py).
 ROWS = [
-    ("field", "OS",      "Fedora Linux 44 (KDE)  ·  Windows 10"),
+    ("field", "OS",      "Ubuntu 24.04.5 LTS  ·  Linux Servers"),
     ("field", "Host",    "Self-hosted homelab"),
-    ("field", "Role",    "Minecraft server admin @ MineWave"),
-    ("field", "IDE",     "VS Code"),
+    ("field", "Role",    "Backend & SysAdmin"),
+    ("field", "IDE",     "zed ide · notepad++"),
     ("blank",),
-    ("field", "Languages.Programming", "Java, Python, Bash"),
+    ("field", "Languages.Programming", "Python, TypeScript, Java"),
     ("field", "Languages.Real",        "Español, English"),
     ("blank",),
-    ("field", "Hobbies.Software", "Minecraft modding (Fabric), Discord bots"),
-    ("field", "Hobbies.Music",    "double bass · guitar · piano · songwriting"),
+    ("field", "Hobbies.Software", "Scripting, automation, and background processes"),
+    ("field", "Hobbies.Music",    "Alternative Rock · Nu Metal · Hard Rock · Heavy Metal"),
     ("blank",),
     ("field", "Last Played", "{last_played}"),
     ("blank",),
-    ("field", "Contact.Discord", "TVTvirus"),
-    ("field", "Contact.Email",   "tvtvirus2.0@gmail.com"),
+    ("field", "Contact.Discord", "duohnson"),
+    ("field", "Contact.Email",   "duohnson@gmail.com"),
     ("blank",),
     ("field", "Stats.Repos",   "{repos}  ·  [y]{stars} stars[/]  ·  {followers} followers"),
     ("field", "Stats.Commits", "{commits}"),

@@ -13,8 +13,8 @@ import time
 import urllib.parse
 import urllib.request
 
-USER = "TVTvirus"
-ORGS = ["CodeW4VE"]          # orgs donde tambien cuento commits/LOC
+USER = "duohnson"
+ORGS = ["duohnson"]          # orgs donde tambien cuento commits/LOC
 
 
 def http(url, data=None, headers=None):
