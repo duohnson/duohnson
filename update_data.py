@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Actualiza data.json con la ultima cancion de Spotify + stats de GitHub.
+"""Actualiza data.json con estadisticas de GitHub.
 Corre en GitHub Actions (cron) o local. Solo stdlib.
 
 Env vars:
@@ -11,7 +11,6 @@ import time
 import urllib.request
 
 USER = "duohnson"
-ORGS = ["duohnson"]          # orgs donde tambien cuento commits/LOC
 
 
 def http(url, data=None, headers=None):
@@ -36,9 +35,6 @@ def gh(url):
 def github_stats():
     _, owned = gh(f"https://api.github.com/users/{USER}/repos?per_page=100&type=owner")
     repos = list(owned)
-    for org in ORGS:
-        _, r = gh(f"https://api.github.com/orgs/{org}/repos?per_page=100")
-        repos += r or []
     _, u = gh(f"https://api.github.com/users/{USER}")
 
     commits = adds = dels = 0
@@ -70,6 +66,8 @@ def github_stats():
         "loc_net": f"{adds - dels:,}",
         "loc_add": f"{adds:,}",
         "loc_del": f"{dels:,}",
+        "stats_status": (f"Parcial: {skipped} repositorio(s) pendiente(s)"
+                         if skipped else "Completo"),
     }, skipped
 
 
@@ -80,11 +78,7 @@ if __name__ == "__main__":
     except FileNotFoundError:
         data = {}
     stats, skipped = github_stats()
-    if skipped and all(k in data for k in stats):
-        # cifras incompletas: mejor conservar las anteriores que publicar menos
-        print(f"stats: {skipped} repos sin responder, conservo stats anteriores")
-    else:
-        data.update(stats)
+    data.update(stats)
     with open("data.json", "w") as f:
         json.dump(data, f, ensure_ascii=False, indent=2)
     print("data.json:", json.dumps(data, ensure_ascii=False))

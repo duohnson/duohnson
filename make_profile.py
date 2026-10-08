@@ -32,6 +32,7 @@ ROWS = [
     ("field", "Stats.Repos",   "{repos}  ·  [y]{stars} stars[/]  ·  {followers} followers"),
     ("field", "Stats.Commits", "{commits}"),
     ("field", "Stats.Lines of Code", "{loc_net} ([g]{loc_add}++[/], [r]{loc_del}--[/])"),
+    ("field", "Stats.Status", "{stats_status}"),
 ]
 
 # Paletas: se genera un SVG por tema (GitHub elige con prefers-color-scheme)
